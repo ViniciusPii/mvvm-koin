@@ -12,12 +12,11 @@ class UserViewModel(
 ) : ViewModel() {
 
     fun getAllUsers() = viewModelScope.launch {
-
         val users: List<User> = userRepository.getAllUsers()
 
         for (user in users) {
             Log.i("Users", user.login)
         }
-    }
 
+    }
 }
