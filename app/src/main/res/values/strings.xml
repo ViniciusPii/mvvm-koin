@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MvvmKoinGit</string>
+    <string name="button_call_network_text">Chamada da Api</string>
+</resources>
